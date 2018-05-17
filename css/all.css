@@ -1,0 +1,178 @@
+body, html {   
+    font-family: "Microsoft JhengHei", "Segoe UI", sans-serif;
+    background: #F7F6F0; 
+}
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*---------------------------------------------- 
+  header block
+------------------------------------------------*/
+.header{
+    position: relative;
+    background: url(../images/Hero.png);
+    height: 380px;
+    text-align: center;
+}
+.header h1 {
+    padding-top: 90px;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.select-area {
+    width: 450px;
+    height: 48px;
+    margin-top: 125px;
+    padding: 0px 10px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.popular-area {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    width: 600px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #dbdbdb;
+}
+.popular-area p {
+    text-align: left;
+    padding: 10px 0 10px 40px;
+}
+.popular-area div {
+    margin-bottom: 20px;
+}
+.btn-cianjhen,
+.btn-sanmin,
+.btn-zuoying,
+.btn-gushan {
+    margin: 0 8px;
+    padding: .5em 2em;
+    border-radius: 5px;
+    color: #fff;
+}
+.btn-cianjhen {
+    background: #8A82CC;
+}
+.btn-sanmin {
+    background: #FFA782;
+}
+.btn-zuoying {
+    background: #F5D005;
+}
+.btn-gushan {
+    background: #559AC8;
+}
+
+/*---------------------------------------------- 
+  travel block
+------------------------------------------------*/
+.travel {
+    margin: 100px 22px 20px 22px;
+}
+.travel h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #8A82CC;
+    margin-bottom: 10px;
+}
+.travel-list > li {
+   float: left;
+   margin: 15px 8px; 
+}
+.travel-title {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 462px;
+    color: #fff;
+}
+.travel-title h3 {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 24px;
+}
+.travel-title span {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.travel-info {
+    padding: 15px;
+    height: 150px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0px 3px 5px #dbdbdb;
+    background: #fff;
+}
+.travel-info li {
+    margin-bottom: 15px;
+}
+.travel-info .travel-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.travel-info .time {
+    background: url(../images/icons_clock.png) no-repeat center;
+}
+.travel-info .address {
+    background: url(../images/icons_pin.png) no-repeat center;
+}
+.travel-info .telphone {
+    background: url(../images/icons_phone.png) no-repeat center;
+}
+
+.travel-info span {
+    display: inline-block;
+    width: 400px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.nodata {
+    padding: 15px;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}
+/*---------------------------------------------- 
+  footer block
+------------------------------------------------*/
+
+.footer {
+    background: #559AC8;
+    text-align: center;
+    padding: 20px;
+}
+.footer p {
+    margin-bottom: 15px;
+    color: #fff;
+}
+.footer a {
+    text-decoration: none;
+    color: #FFD366;
+}
+
